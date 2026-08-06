@@ -157,19 +157,22 @@ Access the deployed application here:
 
 # 📸 Screenshots
 
-> Add screenshots of your application here after deployment.
+<img width="1163" height="675" alt="image" src="https://github.com/user-attachments/assets/73087d7a-8d1a-4393-abaa-9564e80b55cb" /> 
+
+
+
 
 ### 🏠 Home Page
 
-*(Insert screenshot)*
+<img width="1180" height="678" alt="image" src="https://github.com/user-attachments/assets/52b8489b-a8b2-4d76-bda6-a9ae0ee07299" />
 
 ### 📊 Dashboard
 
-*(Insert screenshot)*
+<img width="1162" height="657" alt="image" src="https://github.com/user-attachments/assets/ed9d524c-cecf-4a11-87b4-5ddac2469446" />
 
 ### 🔍 Prediction Page
 
-*(Insert screenshot)*
+<img width="787" height="463" alt="image" src="https://github.com/user-attachments/assets/ecfab533-a32b-4487-9af7-16309306ac8b" />
 
 ---
 
