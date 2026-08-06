@@ -162,7 +162,7 @@ Access the deployed application here:
 
 
 
-### 🏠 Home Page
+### 🏠 About Page
 
 <img width="1180" height="678" alt="image" src="https://github.com/user-attachments/assets/52b8489b-a8b2-4d76-bda6-a9ae0ee07299" />
 
