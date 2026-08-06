@@ -1,111 +1,145 @@
 # 🛡️ FraudShield AI
 
-An AI-powered web application for detecting fraudulent credit card transactions using Machine Learning.
+A Machine Learning-powered web application for detecting fraudulent credit card transactions using a **Random Forest Classifier**. The application allows users to predict fraudulent transactions through an interactive Streamlit interface.
 
-## Live Demo
-
-https://intro-to-ai-app-bhbagg58tu6zfrqowmkrnr.streamlit.app/
-
-## Overview
-
-FraudShield AI is a machine learning application built to identify fraudulent credit card transactions. The application uses a trained Random Forest classifier and provides an interactive Streamlit interface for predicting whether a transaction is legitimate or fraudulent.
-
-This project was developed as part of the Introduction to Artificial Intelligence course.
+🔗 **Live Demo:** https://srxesydyh52crkcymjvwor.streamlit.app/
 
 ---
 
-## Features
+# 📌 Project Overview
 
-- Predict fraudulent credit card transactions
-- Upload CSV files for batch predictions
-- View model performance metrics
-- Interactive Streamlit web interface
-- Download prediction results
+Credit card fraud causes significant financial losses worldwide. This project applies supervised machine learning to identify fraudulent transactions from a highly imbalanced dataset.
+
+The application was developed as part of the **Introduction to Artificial Intelligence** course and demonstrates the complete machine learning workflow—from data preprocessing and model training to deployment as a web application.
 
 ---
 
-## Machine Learning Model
+# ✨ Features
 
-Final Model: Random Forest Classifier
+- 🛡️ Detect fraudulent credit card transactions
+- 📊 Interactive Streamlit dashboard
+- 🔍 Predict fraud using a trained Random Forest model
+- 📈 View model performance metrics
+- ☁️ Live web deployment
+- 💻 Open-source code on GitHub
 
-The model was trained on the Credit Card Fraud Detection dataset and optimized for highly imbalanced data.
+---
 
-### Performance
+# 🧠 Machine Learning Workflow
+
+```
+Credit Card Dataset
+        │
+        ▼
+Data Cleaning & Preprocessing
+        │
+        ▼
+Train / Validation / Test Split
+        │
+        ▼
+Random Forest Classifier
+        │
+        ▼
+Hyperparameter Tuning
+(RandomizedSearchCV)
+        │
+        ▼
+Model Evaluation
+        │
+        ▼
+Model Deployment
+(Streamlit)
+```
+
+---
+
+# 📊 Dataset
+
+**Dataset:** Credit Card Fraud Detection Dataset
+
+- Total Transactions: **284,807**
+- Legitimate Transactions: **284,315**
+- Fraudulent Transactions: **492**
+
+The dataset is highly imbalanced, making Precision, Recall, F1-score, and PR-AUC more appropriate evaluation metrics than accuracy alone.
+
+---
+
+# 🤖 Model
+
+**Algorithm Used**
+
+- Random Forest Classifier
+
+The model was selected after comparing multiple approaches due to its strong performance on imbalanced data and its ability to generalize well.
+
+---
+
+# 📈 Model Performance
 
 | Metric | Score |
 |---------|-------|
-| Precision | 98.1% |
-| Recall | 70.3% |
-| F1 Score | 81.9% |
-| ROC-AUC | 92.99% |
-| PR-AUC | 81.08% |
+| Precision | **98.1%** |
+| Recall | **70.3%** |
+| F1 Score | **81.9%** |
+| ROC-AUC | **0.93** |
+| PR-AUC | **0.81** |
 
-These results indicate that the model detects fraudulent transactions with high precision while maintaining strong recall.
-
----
-
-## Dataset
-
-Dataset: Credit Card Fraud Detection Dataset
-
-- Total Transactions: 284,807
-- Fraudulent Transactions: 492
-- Legitimate Transactions: 284,315
-
-The dataset is highly imbalanced, making Precision-Recall AUC an important evaluation metric.
+These results demonstrate that the model achieves excellent precision while maintaining strong recall for detecting fraudulent transactions.
 
 ---
 
-## Technologies Used
+# 🛠️ Technologies Used
 
 - Python
 - Streamlit
 - Scikit-learn
 - Pandas
 - NumPy
-- Matplotlib
 - Joblib
+- Matplotlib
 
 ---
 
-## Project Structure
+# 📂 Project Structure
 
-```
-FraudShield-AI/
+```text
+Fraud-Shield/
 │
 ├── app.py
 ├── fraud_model.pkl
 ├── requirements.txt
 ├── README.md
+│
 └── pages/
-    ├── Dashboard.py
-    ├── Predict.py
-    └── About.py
+    ├── dashboard.py
+    ├── predict.py
+    └── about.py
 ```
 
 ---
 
-## Installation
+# 🚀 Installation
 
-Clone the repository
-
-```bash
-git clone https://github.com/1salmaa/-.git
-```
-
-Move into the project directory
+Clone the repository:
 
 ```bash
-cd FraudShield-AI
+git clone https://github.com/1salmaa/Fraud-Shield.git
 ```
 
-Install dependencies
+Navigate into the project folder:
+
+```bash
+cd Fraud-Shield
+```
+
+Install the required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application
+Run the application:
 
 ```bash
 streamlit run app.py
@@ -113,39 +147,56 @@ streamlit run app.py
 
 ---
 
-## Screenshots
+# 🌐 Live Application
 
-Add screenshots of:
+Access the deployed application here:
 
-- Home Page
-- Dashboard
-- Prediction Page
+**https://srxesydyh52crkcymjvwor.streamlit.app/**
 
 ---
 
-## Future Improvements
+# 📸 Screenshots
 
-- Real-time transaction monitoring
+> Add screenshots of your application here after deployment.
+
+### 🏠 Home Page
+
+*(Insert screenshot)*
+
+### 📊 Dashboard
+
+*(Insert screenshot)*
+
+### 🔍 Prediction Page
+
+*(Insert screenshot)*
+
+---
+
+# 🔮 Future Improvements
+
+- Real-time fraud monitoring
+- Explainable AI using SHAP values
 - Deep Learning models
-- Explainable AI (SHAP)
 - User authentication
-- Cloud database integration
-- REST API for predictions
+- Batch CSV prediction uploads
+- REST API integration
+- Cloud database support
 
 ---
 
-## Author
+# 👩‍💻 Author
 
-Salma A.D. Nabonadam
+**Salma A.D. Nabonadam**
+
+BSc Computer Science
 
 Ashesi University
 
 Introduction to Artificial Intelligence
 
-2026
-
 ---
 
-## License
+# 📄 License
 
-This project was developed for educational purposes.
+This project was developed for educational purposes as part of the Introduction to Artificial Intelligence course.
