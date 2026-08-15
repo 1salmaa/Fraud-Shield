@@ -2,7 +2,7 @@
 
 A Machine Learning-powered web application for detecting fraudulent credit card transactions using a **Random Forest Classifier**. The application allows users to predict fraudulent transactions through an interactive Streamlit interface.
 
-🔗 **Live Demo:** https://srxesydyh52crkcymjvwor.streamlit.app/
+ **Live Demo:** https://srxesydyh52crkcymjvwor.streamlit.app/
 
 ---
 
@@ -14,7 +14,7 @@ The application was developed as part of the **Introduction to Artificial Intell
 
 ---
 
-# ✨ Features
+# Features
 
 -  Detect fraudulent credit card transactions
 -  Interactive Streamlit dashboard
@@ -65,11 +65,11 @@ The dataset is highly imbalanced, making Precision, Recall, F1-score, and PR-AUC
 
 ---
 
-#  Model
-
-**Algorithm Used**
+#  Models
 
 - Random Forest Classifier
+- XG Boost Classifier
+- Logistic Regression Classifier
 
 The model was selected after comparing multiple approaches due to its strong performance on imbalanced data and its ability to generalize well.
 
