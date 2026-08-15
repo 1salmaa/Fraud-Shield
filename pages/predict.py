@@ -1,41 +1,32 @@
-import streamlit as st
+#import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("fraud_model.pkl")
+model = joblib.load("C:/Users/DELL/Desktop/project_beginning/Fraud-Shield/fraud_model.pkl")
 
-st.title("🔍 Fraud Prediction")
-
+#st.title("🔍 Fraud Prediction")
 uploaded_file = st.file_uploader(
     "Upload a CSV file",
     type=["csv"]
 )
 
-if uploaded_file:
+uploaded_file = pd.read_csv('C:/Users/DELL/Desktop/project_beginning/Fraud-Shield/test.csv')
 
-    df = pd.read_csv(uploaded_file)
+prediction = model.predict(uploaded_file)
 
-    prediction = model.predict(df)
+probability = model.predict_proba(uploaded_file)[:,1]
 
-    probability = model.predict_proba(df)[:,1]
+results = {}
+results = pd.DataFrame(results)
+results["Prediction"] = prediction
 
-    results = df.copy()
+results["Fraud Probability"] = probability
 
-    results["Prediction"] = prediction
-
-    results["Fraud Probability"] = probability
-
-    results["Prediction"] = results["Prediction"].map({
+results["Prediction"] = results["Prediction"].map({
         0:"Legitimate",
         1:"Fraud"
     })
+print(results)
 
-    st.dataframe(results)
 
-    csv = results.to_csv(index=False)
-
-    st.download_button(
-        "Download Results",
-        csv,
-        "predictions.csv"
-    )
+    
