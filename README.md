@@ -1,4 +1,4 @@
-# 🛡️ FraudShield AI
+# FraudShield AI
 
 A Machine Learning-powered web application for detecting fraudulent credit card transactions using a **Random Forest Classifier**. The application allows users to predict fraudulent transactions through an interactive Streamlit interface.
 
@@ -6,7 +6,7 @@ A Machine Learning-powered web application for detecting fraudulent credit card 
 
 ---
 
-# 📌 Project Overview
+#Project Overview
 
 Credit card fraud causes significant financial losses worldwide. This project applies supervised machine learning to identify fraudulent transactions from a highly imbalanced dataset.
 
@@ -16,16 +16,16 @@ The application was developed as part of the **Introduction to Artificial Intell
 
 # ✨ Features
 
-- 🛡️ Detect fraudulent credit card transactions
-- 📊 Interactive Streamlit dashboard
-- 🔍 Predict fraud using a trained Random Forest model
-- 📈 View model performance metrics
-- ☁️ Live web deployment
-- 💻 Open-source code on GitHub
+-  Detect fraudulent credit card transactions
+-  Interactive Streamlit dashboard
+-  Predict fraud using a trained Random Forest model
+-  View model performance metrics
+-  Live web deployment
+-  Open-source code on GitHub
 
 ---
 
-# 🧠 Machine Learning Workflow
+#  Machine Learning Workflow
 
 ```
 Credit Card Dataset
@@ -53,7 +53,7 @@ Model Deployment
 
 ---
 
-# 📊 Dataset
+#  Dataset
 
 **Dataset:** Credit Card Fraud Detection Dataset
 
@@ -65,7 +65,7 @@ The dataset is highly imbalanced, making Precision, Recall, F1-score, and PR-AUC
 
 ---
 
-# 🤖 Model
+#  Model
 
 **Algorithm Used**
 
@@ -75,7 +75,7 @@ The model was selected after comparing multiple approaches due to its strong per
 
 ---
 
-# 📈 Model Performance
+#  Model Performance
 
 | Metric | Score |
 |---------|-------|
@@ -89,7 +89,7 @@ These results demonstrate that the model achieves excellent precision while main
 
 ---
 
-# 🛠️ Technologies Used
+#  Technologies Used
 
 - Python
 - Streamlit
@@ -99,27 +99,7 @@ These results demonstrate that the model achieves excellent precision while main
 - Joblib
 - Matplotlib
 
----
-
-# 📂 Project Structure
-
-```text
-Fraud-Shield/
-│
-├── app.py
-├── fraud_model.pkl
-├── requirements.txt
-├── README.md
-│
-└── pages/
-    ├── dashboard.py
-    ├── predict.py
-    └── about.py
-```
-
----
-
-# 🚀 Installation
+# Installation
 
 Clone the repository:
 
@@ -147,7 +127,7 @@ streamlit run app.py
 
 ---
 
-# 🌐 Live Application
+# Live Application
 
 Access the deployed application here:
 
@@ -155,28 +135,14 @@ Access the deployed application here:
 
 ---
 
-# 📸 Screenshots
-
-<img width="1163" height="675" alt="image" src="https://github.com/user-attachments/assets/73087d7a-8d1a-4393-abaa-9564e80b55cb" /> 
+#  Screenshots
 
 
 
-
-### 🏠 About Page
-
-<img width="1180" height="678" alt="image" src="https://github.com/user-attachments/assets/52b8489b-a8b2-4d76-bda6-a9ae0ee07299" />
-
-### 📊 Dashboard
-
-<img width="1162" height="657" alt="image" src="https://github.com/user-attachments/assets/ed9d524c-cecf-4a11-87b4-5ddac2469446" />
-
-### 🔍 Prediction Page
-
-<img width="787" height="463" alt="image" src="https://github.com/user-attachments/assets/ecfab533-a32b-4487-9af7-16309306ac8b" />
 
 ---
 
-# 🔮 Future Improvements
+#  Future Improvements
 
 - Real-time fraud monitoring
 - Explainable AI using SHAP values
@@ -188,9 +154,9 @@ Access the deployed application here:
 
 ---
 
-# 👩‍💻 Author
+# Author
 
-**Salma A.D. Nabonadam**
+**GROUP 4**
 
 BSc Computer Science
 
@@ -199,7 +165,3 @@ Ashesi University
 Introduction to Artificial Intelligence
 
 ---
-
-# 📄 License
-
-This project was developed for educational purposes as part of the Introduction to Artificial Intelligence course.
